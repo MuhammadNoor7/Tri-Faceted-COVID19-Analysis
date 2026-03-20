@@ -164,29 +164,11 @@ Because the repository is notebook-based, visuals are one of the most important 
 
 ## Visualizations
 
-### Age effect
-![Age effect](images/visualizations/age-effect.jpg)
-
-This visualization highlights how COVID-19 outcomes or patterns vary across age groups.  
-It is important because age is one of the strongest factors influencing vulnerability and impact.
-
 ### Anomaly heatmap
 ![Anomaly heatmap](images/visualizations/anomaly-heatmap.jpg)
 
 This visualization shows unusual spikes, deviations, or outlier behavior in the pandemic data.  
 It helps identify periods or regions where the trend differs from the expected pattern.
-
-### Choropleth healthcare distribution
-![Choropleth healthcare distribution](images/visualizations/choropleth-healthcare-dist.jpg)
-
-This map visualizes healthcare-related distribution across geographic units.  
-It provides a spatial view that helps explain differences in preparedness or response capacity.
-
-### Decoupling effect
-![Decoupling effect](images/visualizations/decoupling-effect.jpg)
-
-This visualization explores where pandemic indicators separate or diverge from each other.  
-It is useful for understanding when relationships between variables become weaker or more complex.
 
 ### Log trajectory
 ![Log trajectory](images/visualizations/log-trajectory.jpg)
@@ -194,17 +176,6 @@ It is useful for understanding when relationships between variables become weake
 This chart displays the logarithmic progression of pandemic-related trends.  
 It is helpful for studying growth behavior over time and comparing change across phases.
 
-### Policy vs pandemic (I)
-![Policy vs pandemic I](images/visualizations/policy-vs-pandemic(ii).jpg)
-
-This visualization compares policy response with pandemic behavior for one analytical view.  
-It helps show whether interventions align with major changes in the outbreak.
-
-### Policy vs pandemic
-![Policy vs pandemic](images/visualizations/policy-vs-pandemic.jpg)
-
-This visualization presents the relationship between policy actions and pandemic outcomes.  
-It is useful for understanding how public response may connect to shifts in the data.
 
 ### Socio-economic correlation heatmap
 ![Socio-economic correlation heatmap](images/visualizations/socio-econ-corr-heatmap.jpg)
@@ -212,17 +183,49 @@ It is useful for understanding how public response may connect to shifts in the 
 This heatmap shows how social and economic variables relate to each other and to the broader study.  
 It helps identify which factors move together and which have stronger analytical links.
 
-### Vaccine rollout
-![Vaccine rollout](images/visualizations/vaccine-rollout.jpg)
+### Age effect
+![Age effect](images/visualizations/age-effect.jpg)
 
-This visualization shows how vaccination progressed across time or regions.  
-It is important because vaccine rollout is one of the clearest indicators of response and recovery.
+This visualization highlights how COVID-19 outcomes or patterns vary across age groups.  
+It is important because age is one of the strongest factors influencing vulnerability and impact.
 
 ### Wealth effect
 ![Wealth effect](images/visualizations/wealth-effect.jpg)
 
 This visualization shows how wealth or economic status may influence pandemic-related outcomes.  
 It supports the project’s comparative and decision-oriented framing.
+
+
+### Choropleth healthcare distribution
+![Choropleth healthcare distribution](images/visualizations/choropleth-healthcare-dist.jpg)
+
+This map visualizes healthcare-related distribution across geographic units.  
+It provides a spatial view that helps explain differences in preparedness or response capacity.
+
+### Policy vs pandemic (I)
+![Policy vs pandemic I](images/visualizations/policy-vs-pandemic(ii).jpg)
+
+This visualization compares policy response with pandemic behavior for one analytical view.  
+It helps show whether interventions align with major changes in the outbreak.
+
+### Policy vs pandemic (II)
+![Policy vs pandemic](images/visualizations/policy-vs-pandemic.jpg)
+
+This visualization presents the relationship between policy actions and pandemic outcomes.  
+It is useful for understanding how public response may connect to shifts in the data.
+
+
+### Decoupling effect
+![Decoupling effect](images/visualizations/decoupling-effect.jpg)
+
+This visualization explores where pandemic indicators separate or diverge from each other.  
+It is useful for understanding when relationships between variables become weaker or more complex.
+
+### Vaccine rollout
+![Vaccine rollout](images/visualizations/vaccine-rollout.jpg)
+
+This visualization shows how vaccination progressed across time or regions.  
+It is important because vaccine rollout is one of the clearest indicators of response and recovery.
 
 ## Report and Slides
 
