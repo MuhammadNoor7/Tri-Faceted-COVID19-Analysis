@@ -24,8 +24,6 @@ The project is especially useful because it does not focus on just one dimension
 
 ## Repository Structure
 
-The repository is organized into several top-level folders that map directly to the project workflow.
-
 ### `notebook/`
 This folder contains the Jupyter Notebook files that perform the analysis.
 
@@ -44,8 +42,8 @@ This folder stores the project’s data files.
 This folder contains the visual outputs and documentation images used throughout the repository.
 
 - These visuals help explain the analysis workflow.
-- They likely include charts, plots, and output screenshots from the notebook.
-- In this README, the images are used as embedded documentation to help explain the project step by step.
+- They include the final figures and charts from the notebook.
+- The `images/visualizations/` subfolder contains the most important analytical visuals and is used in this README as documentation of the findings.
 
 ### `report/`
 This folder stores the written report for the project.
@@ -152,9 +150,9 @@ This multi-dimensional comparison gives the project broader interpretive value a
 
 ## Visualization Layer
 
-The repository places a strong emphasis on visual communication. The `images/` folder is likely where the notebook’s important charts, plots, and output screenshots are stored.
+The repository places a strong emphasis on visual communication. The `images/visualizations/` folder contains the main analytical visuals produced by the notebook.
 
-Visualizations help make the analysis easier to understand by showing:
+These visuals help make the analysis easier to understand by showing:
 
 - trend direction
 - regional differences
@@ -164,51 +162,67 @@ Visualizations help make the analysis easier to understand by showing:
 
 Because the repository is notebook-based, visuals are one of the most important parts of the workflow. They translate quantitative analysis into something that can be quickly interpreted by readers.
 
-## Images and Visual Documentation
+## Visualizations
 
-The `images/` folder acts as the project’s visual documentation layer. Since no exact image file names were returned from the repository listing, this README uses representative labels to explain the kinds of visuals the folder is intended to support.
+### Age effect
+![Age effect](images/visualizations/age-effect.jpg)
 
-### Project workflow image
-![Project workflow image](images/workflow.jpg)
+This visualization highlights how COVID-19 outcomes or patterns vary across age groups.  
+It is important because age is one of the strongest factors influencing vulnerability and impact.
 
-This image represents the overall workflow of the project.  
-It helps show how the notebook moves from preparation to analysis and final summary.
+### Anomaly heatmap
+![Anomaly heatmap](images/visualizations/anomaly-heatmap.jpg)
 
-### Data preparation image
-![Data preparation image](images/data-preparation.jpg)
+This visualization shows unusual spikes, deviations, or outlier behavior in the pandemic data.  
+It helps identify periods or regions where the trend differs from the expected pattern.
 
-This image captures the cleaning and preparation stage.  
-It demonstrates the transformation from raw input data to analysis-ready structure.
+### Choropleth healthcare distribution
+![Choropleth healthcare distribution](images/visualizations/choropleth-healthcare-dist.jpg)
 
-### Exploratory analysis image
-![Exploratory analysis image](images/exploratory-analysis.jpg)
+This map visualizes healthcare-related distribution across geographic units.  
+It provides a spatial view that helps explain differences in preparedness or response capacity.
 
-This image shows the exploratory stage of the notebook.  
-It helps explain the first look at trends, distributions, and broad relationships.
+### Decoupling effect
+![Decoupling effect](images/visualizations/decoupling-effect.jpg)
 
-### Statistical analysis image
-![Statistical analysis image](images/statistical-analysis.jpg)
+This visualization explores where pandemic indicators separate or diverge from each other.  
+It is useful for understanding when relationships between variables become weaker or more complex.
 
-This image reflects the project’s more formal analytical stage.  
-It illustrates how the notebook moves from exploration toward deeper interpretation.
+### Log trajectory
+![Log trajectory](images/visualizations/log-trajectory.jpg)
 
-### Time-series trend image
-![Time-series trend image](images/time-series.jpg)
+This chart displays the logarithmic progression of pandemic-related trends.  
+It is helpful for studying growth behavior over time and comparing change across phases.
 
-This image shows the time-series investigation stage.  
-It is important because it highlights how pandemic indicators evolve over time.
+### Policy vs pandemic (I)
+![Policy vs pandemic I](images/visualizations/policy-vs-pandemic(ii).jpg)
 
-### Comparative analysis image
-![Comparative analysis image](images/comparative-analysis.jpg)
+This visualization compares policy response with pandemic behavior for one analytical view.  
+It helps show whether interventions align with major changes in the outbreak.
 
-This image captures the comparison across regions or time periods.  
-It supports the project’s tri-faceted structure and regional interpretation.
+### Policy vs pandemic
+![Policy vs pandemic](images/visualizations/policy-vs-pandemic.jpg)
 
-### Final insights image
-![Final insights image](images/final-insights.jpg)
+This visualization presents the relationship between policy actions and pandemic outcomes.  
+It is useful for understanding how public response may connect to shifts in the data.
 
-This image represents the concluding insight stage.  
-It helps summarize the study in a decision-oriented and presentation-friendly format.
+### Socio-economic correlation heatmap
+![Socio-economic correlation heatmap](images/visualizations/socio-econ-corr-heatmap.jpg)
+
+This heatmap shows how social and economic variables relate to each other and to the broader study.  
+It helps identify which factors move together and which have stronger analytical links.
+
+### Vaccine rollout
+![Vaccine rollout](images/visualizations/vaccine-rollout.jpg)
+
+This visualization shows how vaccination progressed across time or regions.  
+It is important because vaccine rollout is one of the clearest indicators of response and recovery.
+
+### Wealth effect
+![Wealth effect](images/visualizations/wealth-effect.jpg)
+
+This visualization shows how wealth or economic status may influence pandemic-related outcomes.  
+It supports the project’s comparative and decision-oriented framing.
 
 ## Report and Slides
 
@@ -265,6 +279,6 @@ It also shows how a notebook can act as the center of a complete analytical proc
 
 Tri-Faceted COVID19 Analysis is a thoughtful notebook-based project that examines the pandemic from multiple analytical angles. It combines data preparation, exploratory analysis, statistical reasoning, time-series trend investigation, and comparative interpretation into one coherent workflow.
 
-The repository is valuable because it does more than produce charts. It shows how a structured analytical approach can generate meaningful, decision-oriented insights from a complex real-world dataset. The notebook, images, report, and slides work together to tell a complete story of the study.
+The repository is valuable because it does more than produce charts. It shows how a structured analytical approach can generate meaningful, decision-oriented insights from a complex real-world dataset. The notebook, visualizations, report, and slides work together to tell a complete story of the study.
 
 Overall, this repository is a strong example of how a Jupyter Notebook project can be used to explore an important global topic in a rigorous, visual, and communicative way.
